@@ -1,0 +1,289 @@
+{
+  "dizi": {
+    "nodes": [
+      {
+        "type": "Cách bấm 5 (指法5)",
+        "description": "Cách bấm 5 là bắt đầu là ",
+        "items": [
+          {
+            "category": 1,
+            "label": "Do",
+            "value": "5",
+            "top": false,
+            "bottom": true,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
+          },
+          {
+            "category": 1,
+            "label": "Re",
+            "value": "6",
+            "top": false,
+            "bottom": true,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          },
+          {
+            "category": 1,
+            "label": "Mi",
+            "value": "7",
+            "top": false,
+            "bottom": true,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          },
+          {
+            "category": 2,
+            "label": "Fa",
+            "value": "1",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_fa.png"
+          },
+          {
+            "category": 2,
+            "label": "Sol",
+            "value": "2",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sol.png"
+          },
+          {
+            "category": 2,
+            "label": "La",
+            "value": "3",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_la.png"
+          },
+          {
+            "category": 2,
+            "label": "Sib",
+            "value": "4",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sib.png"
+          },
+          {
+            "category": 2,
+            "label": "Do2",
+            "value": "5",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
+          },
+          {
+            "category": 2,
+            "label": "Re2",
+            "value": "6",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          },
+          {
+            "category": 2,
+            "label": "Mi2",
+            "value": "7",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_mi.png"
+          },
+          {
+            "category": 3,
+            "label": "Fa2",
+            "value": "1",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_fa.png"
+          },
+          {
+            "category": 3,
+            "label": "Sol2",
+            "value": "2",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sol.png"
+          },
+          {
+            "category": 3,
+            "label": "La2",
+            "value": "3",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_la.png"
+          },
+          {
+            "category": 3,
+            "label": "Sib2",
+            "value": "4",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sib.png"
+          },
+          {
+            "category": 3,
+            "label": "Do3",
+            "value": "5",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
+          },
+          {
+            "category": 3,
+            "label": "Re3",
+            "value": "6",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          }
+        ]
+      },
+      {
+        "type": "Cách bấm 2 (指法2)",
+        "description": "Cách bấm 5 là bắt đầu là ",
+        "items": [
+          {
+            "category": 1,
+            "label": "Do",
+            "value": "5",
+            "top": false,
+            "bottom": true,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
+          },
+          {
+            "category": 1,
+            "label": "Re",
+            "value": "6",
+            "top": false,
+            "bottom": true,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          },
+          {
+            "category": 2,
+            "label": "Fa",
+            "value": "1",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_fa.png"
+          },
+          {
+            "category": 2,
+            "label": "Sol",
+            "value": "2",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sol.png"
+          },
+          {
+            "category": 2,
+            "label": "La",
+            "value": "3",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_la.png"
+          },
+          {
+            "category": 2,
+            "label": "Sib",
+            "value": "4",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sib.png"
+          },
+          {
+            "category": 2,
+            "label": "Do2",
+            "value": "5",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
+          },
+          {
+            "category": 2,
+            "label": "Re2",
+            "value": "6",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          },
+          {
+            "category": 2,
+            "label": "Mi2",
+            "value": "7",
+            "top": false,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_mi.png"
+          },
+          {
+            "category": 3,
+            "label": "Fa2",
+            "value": "1",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_fa.png"
+          },
+          {
+            "category": 3,
+            "label": "Sol2",
+            "value": "2",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sol.png"
+          },
+          {
+            "category": 3,
+            "label": "La2",
+            "value": "3",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_la.png"
+          },
+          {
+            "category": 3,
+            "label": "Sib2",
+            "value": "4",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_sib.png"
+          },
+          {
+            "category": 3,
+            "label": "Do3",
+            "value": "5",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
+          },
+          {
+            "category": 3,
+            "label": "Re3",
+            "value": "6",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          }
+        ]
+      }
+    ],
+    "crudential": [
+      {
+        "name": "长音(Xông hơi)",
+        "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
+        "rating": 3,
+        "learning_video": "https://example.com/videos/di_technique_tutorial.mp4",
+        "description": "Thổi vào sáo dài và đều để tạo ra âm thanh ổn định, giúp cải thiện kiểm soát hơi thở và độ bền khi chơi sáo."
+      },
+      {
+        "name": "吐音(Đánh âm)",
+        "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
+        "rating": 3.5,
+        "learning_video": "https://example.com/videos/di_vibrato_tutorial.mp4",
+        "description": "Sử dụng tay dể đánh vào lỗ tạo ra âm thanh ngắt quãng, giúp tăng cường sự rõ ràng và sắc nét trong từng nốt nhạc."
+      },
+      {
+        "name": "(Láy âm)",
+        "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
+        "rating": 3.5,
+        "learning_video": "https://example.com/videos/di_vibrato_tutorial.mp4",
+        "description": "Sử dụng tay dể đánh vào lỗ liên tục "
+      }
+    ]
+  }
+}
