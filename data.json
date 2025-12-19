@@ -137,12 +137,12 @@
       },
       {
         "type": "Cách bấm 2 (指法2)",
-        "description": "Cách bấm 5 là bắt đầu là ",
+        "description": "Cách bấm khác với cách bấm 5 ở chỗ bắt đầu từ nốt Do",
         "items": [
           {
             "category": 1,
             "label": "Do",
-            "value": "5",
+            "value": "2",
             "top": false,
             "bottom": true,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
@@ -150,47 +150,47 @@
           {
             "category": 1,
             "label": "Re",
-            "value": "6",
+            "value": "3",
             "top": false,
             "bottom": true,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
           },
           {
-            "category": 2,
+            "category": 1,
             "label": "Fa",
-            "value": "1",
+            "value": "4",
             "top": false,
-            "bottom": false,
+            "bottom": true,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_fa.png"
           },
           {
-            "category": 2,
+            "category": 1,
             "label": "Sol",
-            "value": "2",
+            "value": "5",
             "top": false,
-            "bottom": false,
+            "bottom": true,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_sol.png"
           },
           {
-            "category": 2,
+            "category": 1,
             "label": "La",
-            "value": "3",
+            "value": "6",
             "top": false,
-            "bottom": false,
+            "bottom": true,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_la.png"
           },
           {
-            "category": 2,
+            "category": 1,
             "label": "Sib",
-            "value": "4",
+            "value": "7",
             "top": false,
-            "bottom": false,
+            "bottom": true,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_sib.png"
           },
           {
             "category": 2,
             "label": "Do2",
-            "value": "5",
+            "value": "1",
             "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
@@ -198,7 +198,7 @@
           {
             "category": 2,
             "label": "Re2",
-            "value": "6",
+            "value": "2",
             "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
@@ -206,47 +206,47 @@
           {
             "category": 2,
             "label": "Mi2",
-            "value": "7",
+            "value": "3",
             "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_mi.png"
           },
           {
-            "category": 3,
+            "category": 2,
             "label": "Fa2",
-            "value": "1",
-            "top": true,
+            "value": "4",
+            "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_fa.png"
           },
           {
-            "category": 3,
+            "category": 2,
             "label": "Sol2",
-            "value": "2",
-            "top": true,
+            "value": "5",
+            "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_sol.png"
           },
           {
-            "category": 3,
+            "category": 2,
             "label": "La2",
-            "value": "3",
-            "top": true,
+            "value": "6",
+            "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_la.png"
           },
           {
-            "category": 3,
+            "category": 2,
             "label": "Sib2",
-            "value": "4",
-            "top": true,
+            "value": "7",
+            "top": false,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_sib.png"
           },
           {
             "category": 3,
             "label": "Do3",
-            "value": "5",
+            "value": "1",
             "top": true,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_do.png"
@@ -254,7 +254,15 @@
           {
             "category": 3,
             "label": "Re3",
-            "value": "6",
+            "value": "2",
+            "top": true,
+            "bottom": false,
+            "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
+          },
+          {
+            "category": 3,
+            "label": "Re3",
+            "value": "3",
             "top": true,
             "bottom": false,
             "image_ilustration": "https://example.com/images/dizi_fingering_5_re.png"
@@ -267,22 +275,143 @@
         "name": "长音(Xông hơi)",
         "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
         "rating": 3,
-        "learning_video": "https://example.com/videos/di_technique_tutorial.mp4",
+        "learning_video": "https://v.douyin.com/UH-0HK-xwjo/",
         "description": "Thổi vào sáo dài và đều để tạo ra âm thanh ổn định, giúp cải thiện kiểm soát hơi thở và độ bền khi chơi sáo."
       },
       {
         "name": "吐音(Đánh âm)",
         "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
         "rating": 3.5,
-        "learning_video": "https://example.com/videos/di_vibrato_tutorial.mp4",
+        "learning_video": "https://v.douyin.com/UH-0HK-xwjo/",
         "description": "Sử dụng tay dể đánh vào lỗ tạo ra âm thanh ngắt quãng, giúp tăng cường sự rõ ràng và sắc nét trong từng nốt nhạc."
       },
       {
-        "name": "(Láy âm)",
+        "name": "颤音 (Láy âm)",
         "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
         "rating": 3.5,
-        "learning_video": "https://example.com/videos/di_vibrato_tutorial.mp4",
+        "learning_video": "https://v.douyin.com/UH-0HK-xwjo/",
         "description": "Sử dụng tay dể đánh vào lỗ liên tục "
+      }
+    ],
+    "technicals": [
+      {
+        "name": "单吐",
+        "vietnamese": "Lưỡi đơn",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "basic",
+        "description": "Tonguing đơn, dùng một chuyển động lưỡi (ta/tu) để tách từng nốt rõ ràng"
+      },
+      {
+        "name": "双吐",
+        "vietnamese": "Lưỡi kép",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Tonguing kép (ta–ka), giúp chơi các đoạn nhanh và đều"
+      },
+      {
+        "name": "三吐",
+        "vietnamese": "Lưỡi ba",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "advanced",
+        "description": "Tonguing ba (ta–ka–ta hoặc ta–ta–ka), dùng cho tiết tấu phức và tốc độ cao"
+      },
+      {
+        "name": "叠音",
+        "vietnamese": "Âm lặp nhanh",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Lặp nhanh cùng cao độ bằng phối hợp ngón tay và hơi"
+      },
+      {
+        "name": "倚音",
+        "vietnamese": "Âm luyến phụ",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "basic",
+        "description": "Nốt trang trí ngắn đứng trước hoặc sau nốt chính"
+      },
+      {
+        "name": "打音",
+        "vietnamese": "Âm gõ ngón",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "basic",
+        "description": "Gõ nhanh ngón tay vào lỗ bấm để tạo nốt trang trí sắc nét"
+      },
+      {
+        "name": "气震",
+        "vietnamese": "Rung hơi",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Tạo rung âm bằng cách điều chỉnh luồng hơi thổi"
+      },
+      {
+        "name": "指震",
+        "vietnamese": "Rung ngón",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Tạo rung âm bằng cách rung nhanh ngón tay trên lỗ bấm"
+      },
+      {
+        "name": "揉音",
+        "vietnamese": "Âm vuốt",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Vuốt nhẹ cao độ lên xuống để tạo cảm xúc mềm mại"
+      },
+      {
+        "name": "滑音",
+        "vietnamese": "Âm trượt",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "basic",
+        "description": "Trượt mượt giữa hai cao độ bằng chuyển động ngón tay"
+      },
+      {
+        "name": "颤音",
+        "vietnamese": "Âm rung nhanh",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Luân phiên nhanh giữa hai nốt liền kề (trill)"
+      },
+      {
+        "name": "花舌",
+        "vietnamese": "Lưỡi rung",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "intermediate",
+        "description": "Rung lưỡi khi thổi để tạo hiệu ứng âm thanh mạnh và đặc sắc"
+      },
+      {
+        "name": "飞指",
+        "vietnamese": "Ngón bay",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "advanced",
+        "description": "Chuyển ngón cực nhanh giữa các nốt liên tiếp"
+      },
+      {
+        "name": "半孔音",
+        "vietnamese": "Âm bán lỗ",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "advanced",
+        "description": "Che nửa lỗ bấm để tạo bán âm hoặc vi âm"
+      },
+      {
+        "name": "泛音",
+        "vietnamese": "Âm bội",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "advanced",
+        "description": "Sử dụng hơi và thế bấm để phát ra các âm bội cao"
+      },
+      {
+        "name": "循环换气",
+        "vietnamese": "Thở vòng",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "advanced",
+        "description": "Thổi liên tục không ngắt bằng cách kết hợp hơi miệng và mũi"
+      },
+      {
+        "name": "多音",
+        "vietnamese": "Đa âm",
+        "link_video": "https://v.douyin.com/fCLLCc7WLL0/",
+        "level": "advanced",
+        "description": "Tạo đồng thời nhiều cao độ, thường dùng trong dizi hiện đại"
       }
     ]
   }

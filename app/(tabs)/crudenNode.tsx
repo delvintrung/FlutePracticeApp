@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { ScrollView, Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import data from "../../data.json";
 
@@ -13,25 +13,31 @@ const NodeScreen = () => {
           Giới thiếu thế bấm và cách bấm
         </Text>
         <ScrollView className="flex-1">
-          <View className="p-2 pb-20">
+          <View className="p-2 pb-[100px]">
             {data.dizi.nodes.map((nodeItem, index) => (
               <View key={index}>
                 <Text className="text-2xl font-bold text-gray-800">
                   {nodeItem.type}
                 </Text>
                 <Text className="text-sm ">{nodeItem.description}</Text>
+                {index === 1 && (
+                  <Image
+                    source={require("../../assets/images/2.webp")}
+                    style={{ width: "100%", height: 500 }}
+                  />
+                )}
                 <View className="w-full border-l-gray-800">
                   {nodeItem.items.map((item, idx) => (
-                    <View>
+                    <View key={idx}>
                       {/* Node row */}
                       <View className="flex-row items-center">
                         <View className="w-10 h-10 rounded-full mr-2">
                           <View className="h-10 flex-col w-5 px-1">
-                            <Text className="w-5 h-3 pl-[2px] -mb-[2px]">
+                            <Text className="w-5 h-3 mr-3">
                               {item.top ? "•" : " "}
                             </Text>
-                            <Text>{item.value}</Text>
-                            <Text className="w-5 h-3 pl-[2px] -mt-3">
+                            <Text className="pl-[3px]">{item.value}</Text>
+                            <Text className="w-5 h-3 -mt-2 mr-2">
                               {item.bottom ? "•" : " "}
                             </Text>
                           </View>
