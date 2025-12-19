@@ -1,14 +1,7 @@
-import { Avatar } from "@rneui/base";
-import { Badge, Icon, ListItem } from "@rneui/themed";
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
-import {
-  Linking,
-  ScrollView,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { Linking, ScrollView, TouchableOpacity, View } from "react-native";
+import { Avatar, Badge, Divider, List, Text } from "react-native-paper";
 import { SafeAreaView } from "react-native-safe-area-context";
 import data from "../../data.json";
 
@@ -28,101 +21,101 @@ const openLink = async (url: string) => {
 export default function TabTwoScreen() {
   const [expanded, setExpanded] = useState(false);
   const [expanded2, setExpanded2] = useState(false);
-  return (
-    <SafeAreaView className="flex-1 bg-white">
-      <StatusBar style="auto" />
-      <View className="p-4">
-        <Text className="text-2xl font-bold ">Tổng hợp kĩ thuật</Text>
 
-        <ListItem.Accordion
-          content={
-            <>
-              <Icon name="folder-special" size={26} color="#B91C1C" />
-              <ListItem.Content>
-                <ListItem.Title className="text-xl font-bold text-red-700">
-                  Kỹ thuật cốt lõi
-                </ListItem.Title>
-              </ListItem.Content>
-            </>
-          }
-          isExpanded={expanded}
-          onPress={() => {
-            setExpanded(!expanded);
-          }}
+  return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
+      <StatusBar style="auto" />
+
+      <ScrollView contentContainerStyle={{ padding: 16 }}>
+        <Text variant="headlineMedium" style={{ fontWeight: "bold" }}>
+          Tổng hợp kĩ thuật
+        </Text>
+
+        <List.Accordion
+          title="Kỹ thuật cốt lõi"
+          left={(props) => (
+            <List.Icon {...props} icon="folder-special" color="#B91C1C" />
+          )}
+          expanded={expanded}
+          onPress={() => setExpanded(!expanded)}
         >
           {data.dizi.crudential.map((l, i) => (
-            <ListItem key={i} onPress={log} bottomDivider>
-              <Avatar title={l.name[0]} source={{ uri: l.avatar_url }} />
-              <ListItem.Content>
-                <ListItem.Title>{l.name}</ListItem.Title>
-                <ListItem.Subtitle>{l.description}</ListItem.Subtitle>
-                <View className="" key={i}>
-                  <TouchableOpacity onPress={() => openLink(l.learning_video)}>
-                    <Text className="text-red-600 mt-2">
-                      Xem video hướng dẫn
-                    </Text>
-                  </TouchableOpacity>
-                </View>
-              </ListItem.Content>
-            </ListItem>
+            <View key={i}>
+              <List.Item
+                title={l.name}
+                description={l.description}
+                left={() => (
+                  <Avatar.Text
+                    size={40}
+                    label={l.name[0]}
+                    style={{ backgroundColor: "#FCA5A5" }}
+                  />
+                )}
+              />
+              <TouchableOpacity
+                style={{ marginLeft: 72, marginBottom: 8 }}
+                onPress={() => openLink(l.learning_video)}
+              >
+                <Text style={{ color: "#B91C1C" }}>Xem video hướng dẫn</Text>
+              </TouchableOpacity>
+              <Divider />
+            </View>
           ))}
-        </ListItem.Accordion>
-        <ListItem.Accordion
-          content={
-            <>
-              <Icon name="biotech" size={30} color="#B91C1C" />
-              <ListItem.Content>
-                <ListItem.Title>Danh Sách Kĩ Thuật</ListItem.Title>
-              </ListItem.Content>
-            </>
-          }
-          isExpanded={expanded2}
-          onPress={() => {
-            setExpanded2(!expanded2);
-          }}
+        </List.Accordion>
+
+        <List.Accordion
+          title="Danh sách kĩ thuật"
+          left={(props) => (
+            <List.Icon {...props} icon="biotech" color="#B91C1C" />
+          )}
+          expanded={expanded2}
+          onPress={() => setExpanded2(!expanded2)}
         >
-          <ScrollView className="h-[600px]">
-            {data.dizi.technicals.map((l, i) => (
-              <ListItem key={i} bottomDivider>
-                <ListItem.Content style={{ width: "100%" }}>
-                  <View className="flex-row items-center justify-between gap-4">
-                    <ListItem.Title style={{ flex: 1 }}>
-                      {l.name}
-                    </ListItem.Title>
-                    <Badge
-                      containerStyle={{
-                        marginTop: 5,
-                        padding: 5,
-                        marginLeft: "auto",
-                      }}
-                      badgeStyle={{
-                        paddingHorizontal: 10,
-                        paddingVertical: 5,
-                        height: 30,
-                        borderRadius: 15,
-                      }}
-                      value={l.level}
-                      status={
-                        l.level == "advanced"
-                          ? "warning"
-                          : l.level == "intermediate"
-                          ? "primary"
-                          : "success"
-                      }
-                    />
-                  </View>
-                  <ListItem.Subtitle>{l.description}</ListItem.Subtitle>
-                  <TouchableOpacity onPress={() => openLink(l.link_video)}>
-                    <Text className="text-red-600 mt-2">
-                      Xem video hướng dẫn
-                    </Text>
-                  </TouchableOpacity>
-                </ListItem.Content>
-              </ListItem>
-            ))}
-          </ScrollView>
-        </ListItem.Accordion>
-      </View>
+          {data.dizi.technicals.map((l, i) => (
+            <View key={i} style={{ paddingHorizontal: 8 }}>
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  gap: 8,
+                }}
+              >
+                <Text style={{ flex: 1, fontWeight: "600", fontSize: 18 }}>
+                  {l.name}
+                </Text>
+
+                <Badge
+                  style={{
+                    backgroundColor:
+                      l.level === "advanced"
+                        ? "#F59E0B"
+                        : l.level === "intermediate"
+                          ? "#3B82F6"
+                          : "#16A34A",
+                    fontSize: 16,
+                  }}
+                  className="px-2 h-[30px] font-bold rounded-md"
+                >
+                  {l.level}
+                </Badge>
+              </View>
+
+              <Text style={{ marginTop: 4, color: "#555" }}>
+                {l.description}
+              </Text>
+
+              <TouchableOpacity
+                style={{ marginTop: 6 }}
+                onPress={() => openLink(l.link_video)}
+              >
+                <Text style={{ color: "#B91C1C" }}>Xem video hướng dẫn</Text>
+              </TouchableOpacity>
+
+              <Divider style={{ marginVertical: 12 }} />
+            </View>
+          ))}
+        </List.Accordion>
+      </ScrollView>
     </SafeAreaView>
   );
 }
